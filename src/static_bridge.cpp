@@ -122,7 +122,7 @@ int main(int argc, char * argv[])
 
   std::string request_data_relay_service_name = "/request_data_relay";
   std::string request_data_relay_package_name = "std_srvs";
-  std::string request_data_relay_type_name = "Trigger";
+  std::string request_data_relay_type_name = "SetBool";
   printf(
     "Trying to create bridge for ROS 1 service '%s' "
     "with package '%s' and type '%s'\n",
